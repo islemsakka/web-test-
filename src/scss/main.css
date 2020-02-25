@@ -1,0 +1,100 @@
+.CardProfile {
+  padding: 1%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.CardItem {
+  border: 1px solid grey;
+  width: 300px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  height: 400px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 1%;
+  margin-top: 1%;
+  margin-left: 3px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px grey;
+          box-shadow: 3px 3px grey;
+  padding: 1%;
+  position: relative;
+}
+
+.Button {
+  background-color: #1eceab;
+  color: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 30px;
+}
+
+.img-profil {
+  width: 300px;
+}
+
+span {
+  float: right;
+  position: absolute;
+  color: grey;
+  bottom: 1px;
+  right: 1px;
+  cursor: pointer;
+}
+
+.visible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid grey;
+}
+
+.cacher {
+  display: none;
+}
+
+.img-comment {
+  float: left;
+  width: 50px;
+  height: 50px;
+}
+
+.text_comment {
+  font-size: 12px;
+  font-weight: 200;
+  text-align: start;
+}
+
+.section_couverture {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.photo_couverture img {
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+}
+
+.text_profil {
+  position: relative;
+}
+
+.comments {
+  padding-top: 15%;
+}
+/*# sourceMappingURL=main.css.map */
